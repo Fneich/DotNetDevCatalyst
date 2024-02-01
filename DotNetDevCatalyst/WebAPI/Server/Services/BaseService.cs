@@ -5,7 +5,7 @@ using DevCatalyst.Data.Repositories;
 
 
 
-namespace DevCatalyst.WebAPI.Services
+namespace DevCatalyst.WebAPI.Server.Services
 {
 
     public class BaseService<T, M, R> : IService<T, M> where T : IBaseModel where M : GridModel where R : IBaseRepository<T>

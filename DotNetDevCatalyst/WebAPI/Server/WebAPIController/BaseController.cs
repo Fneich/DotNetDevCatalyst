@@ -2,12 +2,12 @@
 using DevCatalyst.Data.Models;
 using DevCatalyst.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using DevCatalyst.WebAPI.Server.Services;
 using DevCatalyst.WebAPI.Models;
-using DevCatalyst.WebAPI.Services;
 
 
 
-namespace DevCatalyst.WebAPI.WebAPIController
+namespace DevCatalyst.WebAPI.Server.WebAPIController
 {
 
     public class BaseController<T, M, R> : ControllerBase where T : BaseModel where M : GridModel where R : BaseRepository<T>

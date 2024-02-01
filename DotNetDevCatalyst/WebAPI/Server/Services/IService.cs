@@ -3,7 +3,7 @@
 using DevCatalyst.Data.Models;
 
 
-namespace DevCatalyst.WebAPI.Services
+namespace DevCatalyst.WebAPI.Server.Services
 {
     interface IService<T, M> where M : GridModel
     {
